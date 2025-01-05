@@ -6,3 +6,6 @@ jobs:
     steps:
       - name: Print to console
         run: echo Helllo GH Actions!
+      - name: Print a few lines
+        run: |
+          echo First!
